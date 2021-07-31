@@ -9,6 +9,11 @@ app.get('/', (req, res) => {
   res.send('hello world')
 })
 
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`)
+})
+
 // express()
 //   .use(express.static(path.join(__dirname, 'public')))
 //   .set('views', path.join(__dirname, 'views'))
