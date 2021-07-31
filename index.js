@@ -9,6 +9,10 @@ app.get('/', (req, res) => {
   res.send('hello world')
 })
 
+app.get('/getUser', (req, res) => {
+  res.send('hello world')
+})
+
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
